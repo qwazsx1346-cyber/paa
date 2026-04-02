@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: paa
+  datasource:
+    driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+    url: jdbc:log4jdbc:mysql://localhost:3306/paa
+    username: root
+    password: green502
+  jpa:
+    database: mysql #어떤 db에 연결되어있는지
+    hibernate:
+      ddl-auto: update #create, update, none, (DDL: 데이터 정의어 - CREATE, ALTER, DROP)
+        #기존에 테이블 있으면 가만히 두고 없으면 새롭게 만드는게 update
+      #create해놓으면 항상 다 지우고 새롭게 만듬.
+      #배포후에는 run으로 바꿔서 진행
+    properties:
+      hibernate:
+        jdbc:
+          batch_size: 50 #배치작업 크기 설정
+        format_sql: true #쿼리문 보기편하게 포맷팅
+        order_updates: true #JPA Batch 작업 활성화
+    show-sql: true #JPA가 쿼리문 로그에 출력
