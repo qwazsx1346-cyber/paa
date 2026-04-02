@@ -10,7 +10,7 @@ public interface AptTradeClient {
 
     @GetMapping(value = "/getRTMSDataSvcAptTradeDev", produces = "application/xml")
     AptTradeResponse getAptTrade(@RequestParam("serviceKey") String serviceKey
-                                ,@RequestParam("LAWK_CD") String lawdCd
+                                ,@RequestParam("LAWD_CD") String lawdCd
                                 ,@RequestParam("DEAL_YMD") String dealYmd
                                 ,@RequestParam(value = "pageNo", required = false) Integer pageNo
                                 ,@RequestParam(value = "numOfRows", required = false) Integer numOfRows
