@@ -1,4 +1,4 @@
-package com.green.paa.application.model;
+package com.green.paa.application.aparttrade.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;

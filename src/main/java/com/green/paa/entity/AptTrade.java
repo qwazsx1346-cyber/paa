@@ -1,6 +1,6 @@
 package com.green.paa.entity;
 
-import com.green.paa.application.model.AptItem;
+import com.green.paa.application.aparttrade.model.AptItem;
 import jakarta.persistence.*;
 import lombok.*;
 import org.springframework.data.annotation.CreatedDate;

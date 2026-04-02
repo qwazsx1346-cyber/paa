@@ -1,6 +1,6 @@
-package com.green.paa.application;
+package com.green.paa.application.aparttrade;
 
-import com.green.paa.application.model.AptTradeResponse;
+import com.green.paa.application.aparttrade.model.AptTradeResponse;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;

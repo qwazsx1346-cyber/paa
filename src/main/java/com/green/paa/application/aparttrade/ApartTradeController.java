@@ -1,7 +1,7 @@
-package com.green.paa.application;
+package com.green.paa.application.aparttrade;
 
-import com.green.paa.application.model.AptItem;
-import com.green.paa.application.model.AptTradeGetReq;
+import com.green.paa.application.aparttrade.model.AptItem;
+import com.green.paa.application.aparttrade.model.AptTradeGetReq;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;

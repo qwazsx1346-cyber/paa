@@ -1,4 +1,4 @@
-package com.green.paa.application;
+package com.green.paa.application.aparttrade;
 
 import com.green.paa.entity.AptTrade;
 import org.springframework.data.jpa.repository.JpaRepository;

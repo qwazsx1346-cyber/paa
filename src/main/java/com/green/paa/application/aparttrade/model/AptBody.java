@@ -1,4 +1,4 @@
-package com.green.paa.application.model;
+package com.green.paa.application.aparttrade.model;
 
 import tools.jackson.dataformat.xml.annotation.JacksonXmlElementWrapper;
 import tools.jackson.dataformat.xml.annotation.JacksonXmlProperty;

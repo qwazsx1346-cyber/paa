@@ -1,8 +1,8 @@
-package com.green.paa.application;
+package com.green.paa.application.aparttrade;
 
-import com.green.paa.application.model.AptItem;
-import com.green.paa.application.model.AptTradeGetReq;
-import com.green.paa.application.model.AptTradeResponse;
+import com.green.paa.application.aparttrade.model.AptItem;
+import com.green.paa.application.aparttrade.model.AptTradeGetReq;
+import com.green.paa.application.aparttrade.model.AptTradeResponse;
 import com.green.paa.configuration.constants.ConstAptTrade;
 import com.green.paa.entity.AptTrade;
 import lombok.RequiredArgsConstructor;
